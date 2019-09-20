@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/alexjomin/openapi-parser/docparser"
+	"github.com/sadzeih/openapi-parser/docparser"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	yaml "gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v2"
 )
 
 var (

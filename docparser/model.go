@@ -290,12 +290,12 @@ func (spec *openAPI) parseSchemas(f *ast.File) {
 					e.AdditionalProperties = &schema{}
 
 					// map[string]interface{}
-					if _, ok := mp.Value.(*ast.InterfaceType); ok {
-						spec.Components.Schemas[entityName] = e
-						logrus.
-							WithField("name", entityName).
-							Info("Parsing Schema")
-					}
+					//if _, ok := mp.Value.(*ast.InterfaceType); ok {
+					spec.Components.Schemas[entityName] = e
+					logrus.
+						WithField("name", entityName).
+						Info("Parsing Schema")
+					//}
 				}
 
 				// StructType

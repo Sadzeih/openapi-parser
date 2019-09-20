@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/alexjomin/openapi-parser/docparser"
+	"github.com/sadzeih/openapi-parser/docparser"
 	"github.com/spf13/cobra"
-	yaml "gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v2"
 )
 
 var (
