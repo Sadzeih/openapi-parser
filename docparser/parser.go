@@ -152,6 +152,9 @@ func parseIdentProperty(expr *ast.Ident) (t, format string, err error) {
 	case "int16":
 		t = "integer"
 		format = "int16"
+	case "uint16":
+		t = "integer"
+		format = "uint16"
 	case "float32":
 		t = "number"
 		format = "float"
