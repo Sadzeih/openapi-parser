@@ -1,4 +1,4 @@
-module github.com/alexjomin/openapi-parser
+module github.com/sadzeih/openapi-parser
 
 go 1.13
 
