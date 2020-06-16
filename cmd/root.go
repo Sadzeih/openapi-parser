@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/alexjomin/openapi-parser/docparser"
+	"github.com/Sadzeih/openapi-parser/docparser"
 	"github.com/spf13/cobra"
 	yaml "gopkg.in/yaml.v2"
 )

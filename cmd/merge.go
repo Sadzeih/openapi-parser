@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/alexjomin/openapi-parser/docparser"
+	"github.com/Sadzeih/openapi-parser/docparser"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"

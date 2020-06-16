@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"gopkg.in/mgo.v2/bson"
+	"github.com/Sadzeih/openapi-parser/docparser/datatest/otherpackage"
 
-	"github.com/alexjomin/openapi-parser/docparser/datatest/otherpackage"
+	"gopkg.in/mgo.v2/bson"
 )
 
 // GetUser returns a user corresponding to specified id
