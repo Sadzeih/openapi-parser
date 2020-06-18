@@ -109,6 +109,7 @@ type Pet struct {
 	JSONData            json.RawMessage           `json:"json_data"`
 	CustomString        otherpackage.CustomString `json:"custom_string"`
 	Test                Test                      `json:"test"`
+	JSONData            json.RawMessage           `json:"json_data"`
 }
 
 // Dog struct
